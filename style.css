@@ -21,7 +21,7 @@ top-wrapper img {
 
 nav {
     background-color: #000B30;
-    width: 50%;
+    width: 60%;
     height: 70px;
     margin: 0 auto;
     border-radius: 10px;
@@ -50,19 +50,19 @@ nav .container {
 
 nav .logo {
     float: left;
-    width: 30%;
     margin-top: 4px;
     padding-left: 20px;
 }
 
 nav .nav-content {
     float: right;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
     list-style: none;
     width: 100%;
-    padding-right: 20px;
 }
 
 nav ul li {
@@ -73,7 +73,7 @@ nav ul li {
 header {
     height: 700px;
     /* background-image: url("header.jpg"); */
-    background : linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("header.jpg");
+    background : linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("header.jpg");
     background-size: cover;
 }
 
@@ -95,6 +95,13 @@ header p {
     font-family: 'Inter';
     font-weight: bold;
     font-size: 20px;
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+    max-width: 100px;
+    margin-top: 6px;
 }
 
 .book {
@@ -205,7 +212,7 @@ destination .card {
     }
     .bar {
         display: block;
-        margin: 18px;
+        margin: 18px 18px 18px 0px;
     }
 }
 
@@ -215,6 +222,22 @@ destination .card {
     }
 }
 
+@media (max-width: 440px) {
+    nav .logo {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 305px) {
+    nav .logo {
+        padding-left: 0px;
+    }
+    .bar {
+        font-size: 0px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+}
 /*Footer Amelia Putri*/
 .testimonials{
     padding: 40px 0;
