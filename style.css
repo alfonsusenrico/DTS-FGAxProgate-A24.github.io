@@ -1,0 +1,383 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, p, a {
+    letter-spacing: 2px;
+}
+
+top-wrapper img {
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    background-color: #000B30;
+    width: 50%;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #ffffff88;
+    text-decoration: none;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav h3 {
+    color: #fff;
+    font-family: 'Inter';
+}
+
+nav .container {
+    width: 100%;
+    display: inline-block;
+}
+
+nav .logo {
+    float: left;
+    width: 30%;
+    margin-top: 4px;
+    padding-left: 20px;
+}
+
+nav .nav-content {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+header {
+    height: 700px;
+    /* background-image: url("header.jpg"); */
+    background : linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("header.jpg");
+    background-size: cover;
+}
+
+header .header-content {
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'DM Serif Display';
+    font-size: 42px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+header p {
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.book {
+    border-radius: 10px;
+}
+
+destination, review {
+    display: block;
+}
+
+destination {
+    background: linear-gradient(180deg, #010516 65%, #fff 35%);
+    font-family: 'Inter';
+}
+
+destination .container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+destination img {
+    float: left;
+}
+
+destination h1 {
+    font-family: 'DM Serif Display';
+}
+
+destination h1,h2,p {
+    color: #fff;
+}
+
+destination .card {
+    display: inline-block;
+    position: relative;
+    height: 380px;
+    width: 250px;
+    margin: 80px 30px;
+}
+
+.kuta {
+    background-image: linear-gradient(#010516CC, #FFFFFF00), url("kuta.jpg");
+    background-size: cover;
+}
+
+.ijen {
+    background: linear-gradient(#010516CC, #FFFFFF00), url("ijen.jpeg");
+    background-size: cover;
+}
+
+.ampat {
+    background: linear-gradient(#010516CC, #FFFFFF00), url("ampat.jpg");
+    background-size: cover;
+}
+
+.bajo {
+    background: linear-gradient(#010516CC, #FFFFFF00), url("bajo.jpg");
+    background-size: cover;
+}
+
+.btn {
+    height: 55px;
+    width: 120px;
+    border: none;
+    background-color: #FD9D2A;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+.detail {
+    height: 50px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.btn:hover {
+    background-color: #E08B25;
+    cursor: pointer;
+}
+
+@media (min-width: 1280px) {
+    .card:hover {
+        animation: scaleUp 0.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes scaleUp {
+        100% {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.bar {
+    display: none;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    nav ul {
+        display: none;
+    }
+    nav .logo {
+        width: 70%;
+    }
+    header h1 {
+        margin-top: 140px;
+    }
+    .bar {
+        display: block;
+        margin: 18px;
+    }
+}
+
+@media (max-width: 550px) {
+    header h1 {
+        margin-top: 20px;
+    }
+}
+
+/*Footer Amelia Putri*/
+.testimonials{
+    padding: 40px 0;
+    background: #575353;
+    color: #fdf4f4;
+    text-align: center;
+  }
+  .inner{
+    max-width:  1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  .border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col{
+      flex: 33.33%;
+      max-width: 33.33%;
+      box-sizing: border-box;
+      padding: 15px;
+  }
+  .testimonial{
+      background: rgb(27, 26, 26);
+      padding: 30px;
+  }
+  .testimonials img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+  }
+  .name{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin: 20px 0;
+  }
+  .stars{
+  
+  }
+  @media screen and (max-width: 960px){
+      .col{
+          flex: 100%;
+          max-width: 80%;
+      }
+  }
+  @media screen and (max-width: 600px){
+      .col{
+          flex: 100%;
+          max-width: 60%;
+      }
+  }
+
+/*Footer Andieka Rabbani*/
+/*Bagian footer*/
+.Tupperware {
+	width: auto;
+	background-color: #232323;
+	padding: 20px 40px;
+}
+
+.Tupperware h1 {
+	font-size:20px;
+	font-family: 'Segoe UI';
+	color: #e8e8e8;
+	letter-spacing: 2px;
+}
+
+.Tupperware ul {
+	list-style: none;
+	font-family: 'Lucida Sans';
+	font-size: medium;
+	color: #bdbabe;
+	padding-left: 0;
+	line-height: 25px;
+}
+
+/*Bagian Clickable Info*/
+.Sections {
+	height: 200px;
+	padding: 10px;
+}
+
+.Info {
+	float: left;
+	width: 25%;
+}
+
+.Info a {
+	color: #bdbabe;
+}
+
+.Info a:hover {
+	color: white;
+}
+
+@media (max-width: 1000px) {
+	.Info {
+	  width: 50%;
+	}
+	.Sections {
+		height: 350px;
+	}
+}
+
+@media (max-width: 670px) {
+	.Info {
+	  width: 100%;
+	}
+	.Sections {
+		height: 660px;
+	}
+  }
+
+
+/*Bagian Clickable SosMed*/
+.SocMed {
+	text-align: center;
+	padding: 5px;
+}
+
+.SocMed a {
+	color: #f9f9f9;
+}
+
+.SocMed ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.SocMed li {
+	margin: 6px;
+	background: rgba(128,128,128,.2);
+	border-radius: 12px;
+	width: 32px;
+	height: 32px;
+}
+
+.SocMed li:hover {
+	background: rgba(128,128,128,.8);
+}
+
+.SocMed a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	text-decoration: none;
+	cursor: pointer;
+	height: 100%;
+}
+
+/*Bagian Legal*/
+.Legal {
+	color: #f9f9f9;
+	text-align: center;
+	padding: 5px;
+}
